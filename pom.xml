@@ -7,6 +7,7 @@
     <groupId>com.hrudaya.hopital</groupId>
     <artifactId>hospital-contract</artifactId>
     <version>1.0.0</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>25</maven.compiler.source>
@@ -14,5 +15,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>25</maven.compiler.release>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/JP-GECT/hospital-contract</url>
+        </repository>
+    </distributionManagement>
 
 </project>
